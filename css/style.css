@@ -429,7 +429,7 @@ body {
 
 	padding: 30px 40px 30px 30px;
 	background-color: #E3EBF1;
-	background-image: url("/img/background.png");
+	background-image: url("../img/background.png");
 	border-radius: 10px;
 }
 
@@ -656,7 +656,7 @@ body {
 	display: flex;
 	gap: 50px;
 
-	background-image: url("/img/background_form.png");
+	background-image: url("../img/background_form.png");
 }
 
 .main__mailing-list {
