@@ -116,7 +116,7 @@ body {
 }
 
 /* ---------------Header media--------------------- */
-@media (max-width: 991.98px) {
+@media (max-width: 1179.98px) {
 	.header__menu {
 		margin-left: 40px;
 	}
@@ -208,6 +208,7 @@ body {
 	font-size: 15px;
 	text-align: center;
 	color: #fff;
+	cursor: pointer;
 }
 
 /* ---------------Section template-media--------------------- */
@@ -227,6 +228,12 @@ body {
 	}
 }
 
+@media (max-width: 499.98px) {
+	.template__title {
+		font-size: 40px;
+	}
+}
+
 @media (max-width: 449.98px) {
 	.template__illustration {
 		width: 300px;
@@ -240,6 +247,12 @@ body {
 
 	.template__title {
 		font-size: 37px;
+	}
+}
+
+@media (max-width: 399.98px) {
+	.template__title {
+		font-size: 33px;
 	}
 }
 
@@ -396,16 +409,18 @@ body {
 	}
 
 	.section-heading {
-		font-size: 28px;
+		font-size: 33px;
 		line-height: 40px;
+	}
+
+	.blog-lasted__title {
+		font-size: 25px;
 	}
 
 	.latest-blog__item {
 		flex-direction: column;
 		text-align: center;
 	}
-
-
 }
 
 @media (max-width: 409.98px) {
@@ -415,7 +430,11 @@ body {
 	}
 
 	.blog-lasted__title {
-		font-size: 25px;
+		font-size: 20px;
+	}
+
+	.blog-lasted__subtitle {
+		font-size: 14px;
 	}
 }
 
@@ -492,14 +511,14 @@ body {
 	}
 }
 
-@media (max-width: 350.98px) {
+@media (max-width: 379.98px) {
 	.product-list__icon {
-		width: 30px;
-		height: 30px;
+		width: 28px;
+		height: 28px;
 	}
 
 	.product-list__title {
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	.product-list {
@@ -570,6 +589,7 @@ body {
 @media (max-width: 1179.98px) {
 	.products {
 		flex-wrap: wrap;
+		justify-content: space-around;
 	}
 
 	.products__product:not(:last-child) {
@@ -721,6 +741,7 @@ body {
 	line-height: 20px;
 	text-align: center;
 	color: #000000;
+	cursor: pointer;
 }
 
 .form__policy {
@@ -832,6 +853,10 @@ body {
 	margin-bottom: 19px;
 }
 
+.about__social {
+	cursor: pointer;
+}
+
 .about__text {
 	font-size: 16px;
 	line-height: 20px;
@@ -877,6 +902,7 @@ body {
 	background: #FFFFFF;
 	border-radius: 5px 0px 0px 5px;
 	flex: 1 1 auto;
+	padding: 15px 16px;
 }
 
 .search__submit {
@@ -887,7 +913,8 @@ body {
 	font-size: 12px;
 	line-height: 20px;
 	text-align: center;
-	color: #FFFFFF
+	color: #FFFFFF;
+	cursor: pointer;
 }
 
 .navigation__nav {
